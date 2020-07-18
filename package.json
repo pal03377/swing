@@ -23,10 +23,8 @@
     "raf": "^3.4.1",
     "rebound": "^0.1.0",
     "sister": "^3.0.2",
-    "vendor-prefix": "^0.1.0"
-  },
-  "description": "A swipeable cards interface. The swipe-left/swipe-right for yes/no input. As seen in apps like Jelly and Tinder.",
-  "devDependencies": {
+    "vendor-prefix": "^0.1.0", 
+    
     "@ava/babel": "^1.0.1",
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
@@ -41,6 +39,7 @@
     "semantic-release": "^17.0.4",
     "sinon": "^9.0.1"
   },
+  "description": "A swipeable cards interface. The swipe-left/swipe-right for yes/no input. As seen in apps like Jelly and Tinder.",
   "keywords": [
     "swipe",
     "cards"
@@ -59,7 +58,7 @@
   },
   "scripts": {
     "build": "babel ./src --out-dir ./dist --copy-files",
-    "postinstall": "npm install --dev && npm run build", 
+    "postinstall": "npm run build", 
     "lint": "eslint ./src ./test",
     "test": "ava --verbose --serial"
   },

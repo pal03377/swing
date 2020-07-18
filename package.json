@@ -59,7 +59,7 @@
   },
   "scripts": {
     "build": "babel ./src --out-dir ./dist --copy-files",
-    "prepare": "npm install . && npm run build", 
+    "prepare": "npm run build", 
     "lint": "eslint ./src ./test",
     "test": "ava --verbose --serial"
   },
